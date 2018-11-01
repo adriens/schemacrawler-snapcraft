@@ -20,8 +20,8 @@ parts:
         source:  https://github.com/schemacrawler/SchemaCrawler/releases/download/v15.01.04/schemacrawler-15.01.04-distribution.zip
         #source-checksum:  sha512/84897ee88677630102ed004f2f9df76fb0d7880dc9621d8a3679ec11ffdc0a2bc3a2ffdf1adb2591b7bd6c6acc4ae7efcecd92d3acf6bdeed4ab770b1d89f6f7
         plugin: dump
-        build-packages: [openjdk-8-jdk]
-        stage-packages: [openjdk-8-jdk]
+        build-packages: [maven]
+        stage-packages: [maven]
 # List of applications (commands, binaries, daemons) in the snap. 
 apps:
   schemacrawler:
