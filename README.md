@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/adriens/schemacrawler-snapcraft.svg?branch=master)](https://travis-ci.org/adriens/schemacrawler-snapcraft)
 
 
 ```
