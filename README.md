@@ -1,2 +1,1 @@
-# schemacrawler-snapcraft
-A first attempt to create a java snap package
+sudo snap install schemacrawler_0.1_amd64.snap --force-dangerous
