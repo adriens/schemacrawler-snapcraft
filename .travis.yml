@@ -10,4 +10,4 @@ before_install:
 - ls -la
 - sudo apt-get install snapd
 - sudo snap install --dangerous schemacrawler_15.01.04_all.snap
--  sudo schemacrawler -help
+- sudo schemacrawler -help
