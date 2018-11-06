@@ -6,9 +6,10 @@ services:
   - docker
 
 before_install:
-- sudo docker run -v $(pwd):/my-snap snapcore/snapcraft sh -c "apt update && cd /my-snap && snapcraft"
+- sudo docker run -v $(pwd):/my-snap snapcore/snapcraft sh -c "apt update && cd /my-snap && snapcraft schemacrawler"
 - ls -la
 - sudo apt-get install snapd
-- sudo snap install --devmode schemacrawler_15.01.04_all.snap
+- sudo snap try --devmode prime
 - snap list schemacrawler
 - sudo schemacrawler -help
+- which schemacrawler 
