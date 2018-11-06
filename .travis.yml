@@ -12,4 +12,4 @@ before_install:
 - sudo snap install --devmode schemacrawler_15.01.04_all.snap
 - snap list schemacrawler
 - sudo schemacrawler -help
-- which schemacrawler
+- sudo which schemacrawler
