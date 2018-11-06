@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/adriens/schemacrawler-snapcraft.svg?branch=master)](https://travis-ci.org/adriens/schemacrawler-snapcraft)
-
+[![Snap Status](https://build.snapcraft.io/badge/adriens/schemacrawler-snapcraft.svg)](https://build.snapcraft.io/user/adriens/schemacrawler-snapcraft)
 
 ```
 vagrant up
