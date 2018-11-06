@@ -20,6 +20,9 @@ apps:
       # Path to executable (relative to snap base) and arguments to use
       # when this application is run.
       command: schemacrawler-15.01.04-distribution/_schemacrawler/schemacrawler.sh
+      environment: 
+          JAVA_HOME: $SNAP/usr/lib/jvm/java-1.8.0-openjdk-$SNAP_ARCH
+          PATH: $JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
       
 parts:
     schemacrawler:
